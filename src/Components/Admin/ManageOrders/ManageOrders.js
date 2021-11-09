@@ -8,7 +8,7 @@ const ManageOrders = () => {
     const [deleteCount,setDeleteCount]=useState(false);
     const [status,setStaus]=useState("");
     useEffect(()=>{
-        fetch('https://obscure-dawn-92220.herokuapp.comallOrders')
+        fetch('https://obscure-dawn-92220.herokuapp.com/allOrders')
         .then(res=>res.json())
         .then(data=>setOrders(data))
 },[deleteCount])
