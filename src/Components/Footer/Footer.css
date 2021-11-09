@@ -1,0 +1,16 @@
+
+.upper-part{
+    background-color: #152B5A
+}
+
+.lower-part{
+    background-color: #060606;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: tomato;
+}
